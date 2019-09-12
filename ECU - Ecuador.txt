@@ -1,0 +1,44 @@
+﻿capital = 305
+
+oob = "ECU_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+	fuel_silos = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1933.12.15"
+	election_frequency = 84
+	elections_allowed = yes
+}
+set_popularities = {
+	social_democracy = 45
+	conservatism = 14
+	liberalism = 39
+	fascism = 2
+	national_socialism = 0
+	monarchism = 0
+	authoritarian_socialism = 0
+	authoritarian_democracy = 0
+	libertarian_socialism = 0
+	stalinism = 0
+	autocracy = 0
+}
+
+create_country_leader = {
+	name = "Federico Páez"
+	desc = "POLITICS_FEDERICO_PAEZ_DESC"
+	picture = "GFX_Portrait_ecuador_federico_paez"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}

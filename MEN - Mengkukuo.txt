@@ -1,0 +1,50 @@
+﻿capital = 611
+
+oob = "MEN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 80
+	monarchism = 20
+	stalinism = 0
+	authoritarian_socialism = 0
+	authoritarian_democracy = 0
+	libertarian_socialism = 0
+	liberalism = 0
+	conservatism = 0
+	social_democracy = 0
+	autocracy = 0
+	national_socialism = 0
+}
+
+create_country_leader = {
+	name = "Prince Demchugdongrub"
+	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
+	picture = "GFX_portrait_men_demchugdongrub"
+	expire = "1965.1.1"
+	ideology = rexism
+	traits = {
+		spirit_of_genghis
+	}
+}
+
+create_country_leader = {
+	name = "Prince Demchugdongrub"
+	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
+	picture = "GFX_portrait_men_demchugdongrub"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		spirit_of_genghis
+	}
+}

@@ -1,0 +1,42 @@
+﻿capital = 540
+
+oob = "ANG_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = centralized
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarian_democracy = 100
+	monarchism = 0
+	autocracy = 0
+	national_socialism = 0
+	fascism = 0
+	stalinism = 0
+	authoritarian_socialism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	conservatism = 0
+	liberalism = 0
+}
+
+create_country_leader = {
+	
+	name = "Jonas Lote"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = centralized
+	traits = {
+		#
+	}
+}

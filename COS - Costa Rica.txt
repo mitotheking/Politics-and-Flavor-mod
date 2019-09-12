@@ -1,0 +1,43 @@
+﻿capital = 316
+
+oob = "COS_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 10
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1932.2.14"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	liberalism = 47
+	conservatism = 28
+	social_democracy = 21
+	fascism = 2
+	libertarian_socialism = 2
+	authoritarian_socialism = 0
+	stalinism = 0
+	national_socialism = 0
+	autocracy = 0
+	authoritarian_democracy = 0
+	monarchism = 0
+}
+
+create_country_leader = {
+	name = "Ricardo Jiménez Oreamuno"
+	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+	picture = "GFX_portrait_costa_rica_ricardo_jiminez_oreamuno"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {
+		#
+	}
+}
